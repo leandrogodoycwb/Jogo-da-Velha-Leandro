@@ -1,0 +1,9 @@
+/* Lógico_1: */
+
+CREATE TABLE Jogador (
+    jogador_id int primary key,
+    nome_jogador varchar(50),
+    Senha varchar(30),
+    vitoria int,
+    derrota int
+);
